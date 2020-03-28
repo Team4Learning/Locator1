@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" thread-count="1" verbose="1" parallel="true">
+	<test name="module1" preserve-order="true">
+		<classes>
+			<!-- <class name="com.selenium.locators.LocateById" />  -->
+
+			<!--<class name="sample.sample.com.TestB" /> <class name="sample.sample.com.TestC" 
+				/> -->
+				<class name="com.selenium.locators.BasicWebDriverCommands" />
+				
+				
+
+		</classes>
+	</test>
+</suite>
