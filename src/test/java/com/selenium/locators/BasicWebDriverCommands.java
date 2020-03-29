@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 // Following Example depicts the most commonly used Browser Commands for Selenium WebDriver
+//Changes made successfully
 
 public class BasicWebDriverCommands {
 
@@ -15,7 +16,7 @@ public class BasicWebDriverCommands {
 	@BeforeTest
 	public void basicBrowserOperation() throws InterruptedException {
 		
-		// System Property for Chrome Driver   
+		// System Property for Chrome Driver   	
 		System.setProperty("webdriver.chrome.driver", "C:\\TestAutomation\\Grid\\chromedriver_win32\\chromedriver.exe");
 		
 		// Instantiate a ChromeDriver class.     
